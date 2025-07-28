@@ -14,9 +14,9 @@ const SEARCH_URL = `${BASE_URL}/torrent/torrents_v2.php`;
 
 const builder = addonBuilder({
     id: "org.stremio.sktorrent",
-    version: "1.0.0",
-    name: "SKTorrent",
-    description: "Streamuj torrenty z SKTorrent.eu (filmy aj seriály)",
+    version: "1.1.0",
+    name: "Btnick-SKTorrent",
+    description: "Streamuj torrenty z SKTorrent.eu",
     types: ["movie", "series"],
     catalogs: [
         { type: "movie", id: "sktorrent-movie", name: "SKTorrent Filmy" },
